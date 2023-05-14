@@ -1,4 +1,4 @@
-#Display all the “wooden chair” items that were manufactured before the 1st May 2023.
+# Display all the “wooden chair” items that were manufactured before the 1st May 2023.
 import mysql.connector
 mydb = mysql.connector.connect(
     host='localhost', user='root', password='Suresh@1702', database='INVENTORY_MANAGEMENT')
