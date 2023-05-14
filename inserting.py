@@ -1,4 +1,4 @@
--- inserting values into goods table
+# inserting values into goods table
 
 import mysql.connector
 mydb = mysql.connector.connect(
@@ -14,7 +14,7 @@ cur.executemany(insert, data)
 mydb.commit()
 
 
---inserting into manufacture table
+# inserting into manufacture table
 
 
 import mysql.connector
@@ -26,7 +26,7 @@ a = [(1, 'SS EXPORT', 'Toy Car', 'Blue', 100, '2023-04-01', 0), (2, 'SG EXPORT',
 cur.executemany(z, a)
 mydb.commit()
 
--- inserting into purchase table
+# inserting into purchase table
 
 import mysql.connector
 mydb = mysql.connector.connect(
@@ -38,7 +38,7 @@ values=[(1, 'Online Store', 'Toy Car', 'Blue', 50, 1000, '2023-04-05'),
        (3, 'Online Store', 'Teddy Bear', 'Pink', 100, 2000, '2023-05-02')]
 cur.executemany(insert,values)
 
--- inserting into sale table
+# inserting into sale table
 
 import mysql.connector
 mydb = mysql.connector.connect(
