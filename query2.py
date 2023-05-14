@@ -1,4 +1,4 @@
-#Update the manufacture details of all the red-colored toys which are purchased by the “MyKids” store.
+# Update the manufacture details of all the red-colored toys which are purchased by the “MyKids” store.
 
 import mysql.connector
 mydb = mysql.connector.connect(
